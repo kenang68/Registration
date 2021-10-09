@@ -1,0 +1,28 @@
+
+<%- include ("../navi") %>
+
+<div class="login-panel">
+  
+  
+    <div class="title">Upload File</div>
+
+      <form
+      class="formUpload"
+      enctype="multipart/form-data"
+      method="POST"
+      action="/uploadFile"
+      >
+      <div class="text">
+          <!--<span>Upload Profile Picture:</span>-->
+          <input type="file" name="mypic" required/> <br>
+          <input type="submit" class="submitButton" value="submit">
+
+      </div>
+
+      </form>
+
+
+  </div>
+
+<%- include ("../footer") %>
+

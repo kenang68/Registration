@@ -1,0 +1,43 @@
+<%- include ("../navi") %>
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/action_page.php" method="post">
+      <div class="imgcontainer">
+        <a href= "/" onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</a>
+
+      </div>
+  
+      <div class="container">
+        <label><b>File successfully loaded</b></label>
+
+  
+
+      </div>
+      
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <a href= "/" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">OK</a>
+
+
+      </div>
+    </form>
+  </div>
+
+  <script>
+
+    // Get the modal
+    var modal = document.getElementById('id01');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+            window.location = "/";
+
+
+        }
+    }
+    </script>
+
+<%- include ("../footer") %>
