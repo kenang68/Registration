@@ -10,9 +10,11 @@ Body    x-www-form-urlencoded
 
 Key                     Value
 
-name                  John
-email                 john@gmail.com
-password              12345
+name                    John
+
+email                   john@gmail.com
+
+password                12345
 
 
 
