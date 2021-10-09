@@ -8,10 +8,11 @@ POST        127.0.0.1:8000/account/api/signup
 
 Body    x-www-form-urlencoded
 
-Key                 Value
-name                John
-email               john@gmail.com
-password            12345
+Key                     Value
+
+name                  John
+email                 john@gmail.com
+password              12345
 
 
 
@@ -21,4 +22,4 @@ The program build a user interface to do login and to upload image file (jpeg fo
 
 Please remember to do signup first. The user information will be stored in SQLite database.
 
-To run the program "node app.js" The port is 8000. Go to Chrome browser and type "127.0.0.1:8000"
+To run the program, run command "node app.js" The port is 8000. Go to Chrome browser and type "127.0.0.1:8000"
